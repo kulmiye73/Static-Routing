@@ -11,14 +11,23 @@ Conf t
 Interface g0/0/1
 
 Ip address 192.168.10.1 255.255.255.0
+
 Description connected switch1
+
 No shut
+
 Int g0/0/0
+
 Ip address 172.16.10.1 255.255.255.0
+
 Description connected R2
+
 No shut
-## do the same configuration with other side using network 192.168.20.0 255.255.255.0 and 172.16.20.0 255.255.255.255.0.
+
+## Do the same configuration with other side using network 192.168.20.0 255.255.255.0 and 172.16.20.0 255.255.255.255.0.
 ## now you can configure static routing on Router2##
+
+
 Enable
 
 Conf t
@@ -34,8 +43,10 @@ Ip route 192.168.10.0 255.255.255.0 172.168.10.1
 
 
 Ping PC1 to PC2 to test static routing protocol is working and now it is working
+
  .
 ![image](https://github.com/user-attachments/assets/7eaa0124-9990-4156-93dc-d638fc66e097)
+
 ![image](https://github.com/user-attachments/assets/a706d69e-bd12-4553-99a6-ff8526de6aae)
 
 

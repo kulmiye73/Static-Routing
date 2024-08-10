@@ -25,7 +25,8 @@ Description connected R2
 No shut
 
 ## Do the same configuration with other side using network 192.168.20.0 255.255.255.0 and 172.16.20.0 255.255.255.255.0.
-## now you can configure static routing on Router2##
+
+## Now you can configure static routing on Router2##
 
 
 Enable

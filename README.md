@@ -7,7 +7,9 @@
 ## First configure PC1 ip address 192.168.10.2 255.255.255.0 and gateway 192.168.10.1
 ## Second configure Router1 
 Conf t
+
 Interface g0/0/1
+
 Ip address 192.168.10.1 255.255.255.0
 Description connected switch1
 No shut

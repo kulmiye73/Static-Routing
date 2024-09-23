@@ -40,7 +40,7 @@ Ip route 192.168.20.0 255.255.255.255.0 172.16.20.1
 
 Ip route 192.168.10.0 255.255.255.0 172.168.10.1
 
-## Use command sow ip route to see routing table
+## Use command show ip route to see routing table
 
  ![image](https://github.com/user-attachments/assets/29bf20c1-b2d4-4052-ac8f-be5ba8c710bb)
 
